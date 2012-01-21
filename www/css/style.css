@@ -1,0 +1,133 @@
+/*YUI RESET*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0;padding:0;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img { border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+
+/* oocss */
+.line:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.line{*zoom:1;}
+
+/* basics */
+body,th,td,div {
+    font-family: "Helvetica Neue","Verdana";
+    font-size:12px;
+}
+
+/* front page */
+#intro {
+    margin-top:100px;
+}
+#intro h1 {
+    font-size:70px;
+    margin:0 auto;
+    font-weight: 100;
+    text-align: center;
+}
+#intro .slogan {
+    font-size:16px;
+    margin:0 auto;
+    font-weight: 400;
+    text-align: center;
+}
+#intro .fb-login {
+    font-size:22px;
+    margin:30px auto;
+    font-weight: 100;
+    width:220px;
+    border:1px solid #eee;
+    background: #3B5958 url(http://static.ak.fbcdn.net/rsrc.php/v1/y0/r/NB47cUfXHpf.png) repeat-x;
+    display: block;
+    color:white;
+    padding:5px;
+    cursor: pointer;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+#intro .fb-login img {
+    float:left;
+    margin-right:5px;
+}
+#intro .fb-login:hover {
+    cursor: pointer;
+    
+}
+
+#intro .quote {
+    width:270px;
+    margin:0 auto;
+    font-weight: 200;
+    font-size:14px;
+}
+#intro .quote .author {
+    font-style: italic;
+}
+
+
+/* top */
+#header {
+    border-bottom: 3px solid #ccc;
+    height:45px;
+    position: relative;
+}
+    /* site title */
+    #site-title {
+        font-size:36px;
+        font-weight: 100;
+        position:absolute;
+        left:20px;
+        top:2px;
+    }
+    /* menus */
+    #header .menu {
+        position:absolute;
+    }
+    #header .menu li {
+        float:left;
+    }
+    #header .menu li a {
+        display:block;
+        padding:2px 5px;
+        text-decoration: none;
+    }
+    
+    /* main menu */
+    #main-menu {
+        bottom: 5px;
+        left:190px;
+    }
+
+    #main-menu a {
+        border:1px solid #ccc;
+        border-left:0;
+        color:#333;    
+        font-size:15px;
+    }
+    #main-menu a:hover,
+        #main-menu a.active {
+        background-color: #eee;
+    }
+    
+    #main-menu li:first-child a {
+        border-left:1px solid #ccc;
+    }
+    
+    /* user menu */
+    #user-menu {
+        top: 5px;
+        right:20px;
+    }
+    
+    #user-menu li:first-child a {
+        border-right:1px solid #333;
+    }
+
+
+
